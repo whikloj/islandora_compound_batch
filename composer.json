@@ -2,6 +2,6 @@
   "name": "islandora_compound_batch",
   "description": "Ingest compound objects into an Islandora instance",
   "require-dev": {
-    "phpunit/phpunit": "^6.5"
+    "phpunit/phpunit": "*"
   }
 }
