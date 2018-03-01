@@ -176,6 +176,7 @@ class createStructureTest extends TestCase {
       $id = uniqid();
       $output_dir = $this->RESOURCE_DIR . DIRECTORY_SEPARATOR . $id;
     } while (file_exists($output_dir));
+    var_dump($output_dir);
     mkdir($output_dir);
     touch($output_dir . DIRECTORY_SEPARATOR . 'MODS.xml');
     foreach ($parts as $item) {
